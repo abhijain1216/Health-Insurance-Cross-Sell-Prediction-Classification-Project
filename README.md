@@ -40,3 +40,40 @@ Now, in order to predict, whether the customer would be interested in Vehicle in
 * **PolicySalesChannel :**	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
 * **Vintage :**	Number of Days, Customer has been associated with the company
 * **Response :**	1 : Customer is interested, 0 : Customer is not interested
+
+
+### *Project Work flow*
+
+1. Importing Libraries
+
+2. Loading the Dataset
+
+3. Explore Dataset
+
+4. Data Wrangling
+
+5. Exploratory Data Analysis (EDA) 
+
+6. Hypothesis Testing
+
+7. Feature Engineering & Data Pre-processing
+
+8. Machine Learning Model Implementation
+
+9. Model Explainability
+
+10. Future Work
+
+11. Conclusions
+
+
+### *Python Libraries Used*
+
+* Numpy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* SciPy
+* Shap
+* Pylab
