@@ -20,3 +20,23 @@ Just like medical insurance, there is vehicle insurance where every year custome
 Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
 
 Now, in order to predict, whether the customer would be interested in Vehicle insurance, you have information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc.
+
+
+### *Dataset Information*
+* The dataset has information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc.It has approximately 38,000 observations and 12 features.
+* There are no null/missing values in the dataframe.
+* There are no duplicate values in the dataframe, all rows are unique.
+
+#### *Variable Description*
+* **id :**	Unique ID for the customer
+* **Gender	:** Gender of the customer
+* **Age :**	Age of the customer
+* **Driving_License :**	0 : Customer doesn't have Driving Licence, 1 : Customer already has Driving Licence
+* **Region_Code :**	Unique code for the region of the customer
+* **Previously_Insured	:** 1 : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance
+* **Vehicle_Age :**	Age of the Vehicle
+* **Vehicle_Damage	 :** 1 : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
+* **Annual_Premium	:** The amount customer needs to pay as premium in the year
+* **PolicySalesChannel :**	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+* **Vintage :**	Number of Days, Customer has been associated with the company
+* **Response :**	1 : Customer is interested, 0 : Customer is not interested
